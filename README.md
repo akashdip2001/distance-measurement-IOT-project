@@ -4,7 +4,7 @@ https://github.com/user-attachments/assets/e4feb478-7727-4617-839e-8f4f69a669cc
 
 ![WhatsApp Image 2025-04-01 at 00 26 54_0361bb4b](https://github.com/user-attachments/assets/23872c8c-6b9c-4f30-a840-211c6a761ebe)
 
-```c++
+```cpp
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
 
@@ -61,3 +61,26 @@ void loop() {
     delay(500);
 }
 ```
+
+---
+
+### **Connections:**
+- **HC-SR04 Ultrasonic Sensor:**
+  - **VCC** → **5V**
+  - **GND** → **GND**
+  - **TRIG** → **D9**
+  - **ECHO** → **D10**
+  
+- **16x2 LCD with I2C Module:**
+  - **VCC** → **5V**
+  - **GND** → **GND**
+  - **SDA** → **A4** (Arduino UNO)
+  - **SCL** → **A5** (Arduino UNO)
+
+---
+
+![01](https://github.com/user-attachments/assets/7fb5e90a-f2fd-4e65-9a3b-c94e4cb909a7)
+![02](https://github.com/user-attachments/assets/7c8fabec-0520-4ad7-853c-f2bdd06fe4a0)
+![03](https://github.com/user-attachments/assets/c86ca56d-92bd-4479-b28c-91ee35e74cf4)
+![04](https://github.com/user-attachments/assets/e2c38784-dddf-40cd-8ac4-2fc58ef11a49)
+![05](https://github.com/user-attachments/assets/2791fcc1-566c-4cd1-b186-b0899fac7de6)
