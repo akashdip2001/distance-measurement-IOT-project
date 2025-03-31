@@ -4,6 +4,11 @@ https://github.com/user-attachments/assets/e4feb478-7727-4617-839e-8f4f69a669cc
 
 ![WhatsApp Image 2025-04-01 at 00 26 54_0361bb4b](https://github.com/user-attachments/assets/23872c8c-6b9c-4f30-a840-211c6a761ebe)
 
+---
+
+### ✅ Library need to install for Display : `Liquid Crystal I2C`
+### ✅ Code : 
+
 ```cpp
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
@@ -63,6 +68,8 @@ void loop() {
 ```
 
 ---
+
+<img align="right" alt="Library need to install for Display" width="300" src="https://github.com/user-attachments/assets/969a76dc-07a1-4a08-b2ac-65ca8f16a881">
 
 ### **Connections:**
 - **HC-SR04 Ultrasonic Sensor:**
